@@ -10,13 +10,13 @@ class MainController extends Controller
 {
 
  use UploadTrait;
-    /*public function getCities() {
+    public function getCities() {
 
        $model = new Cities();
        $cities = $model->getCities();
 
         return response()->json(['cities' => $cities]);
-    }*/
+    }
 
    public function index(){
     return Cities::all();

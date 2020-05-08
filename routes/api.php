@@ -30,6 +30,7 @@ Route::put('cities/{id}', 'MainController@update');
 Route::post('cities/{id}', 'MainController@delete');
 
 Route::get('hotels', 'HotelsController@getHotels');
+Route::get('cities', 'MainController@getCities');
 
 
 
